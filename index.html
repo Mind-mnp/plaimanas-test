@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- ===== Navbar ===== -->
+    <header class="navbar">
+      <div class="background-overlay"></div>
+      <div class="container">
+        <div class="currency">
+          <select id="currency">
+            <option value="THB">TH-THB</option>
+            <option value="USD">US-USD</option>
+          </select>
+        </div>
+
+        <nav class="nav-links">
+          <a class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+            <!-- <img src="./assets/icons/menu.svg"/> -->
+          </a>
+        </nav>
+        <div class="menu-row">
+          <div class="container-row">
+            <a href="#">Women</a>
+            <a href="#">Collections</a>
+            <div class="menu-item">
+              <a href="#" class="has-submenu">Editorial</a>
+
+              <div class="submenu">
+                <a href="#">A.S.C</a>
+                <a href="#">BAZZAR</a>
+                <a href="#">ELLE</a>
+                <a href="#">GQ</a>
+              </div>
+            </div>
+            <a href="#">Stories</a>
+          </div>
+        </div>
+
+        <div class="nav-right">
+          <button>SIGN IN</button>
+          <i class="fas fa-bag-shopping"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="nav-menu">
+      <div class="menu-container">
+        <a href="#">Women</a>
+        <a href="#">Collections</a>
+        <div class="menu-item">
+          <div class="menu-btn">
+            <a href="#">Editorial</a>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <div class="submenu">
+            <a href="#">A.S.C</a>
+            <a href="#">BAZZAR</a>
+            <a href="#">ELLE</a>
+            <a href="#">GQ</a>
+            <a href="#">L'OFFICIAL THAILAND</a>
+            <a href="#">NUMERO</a>
+            <a href="#">VOGUE</a>
+          </div>
+        </div>
+        <a href="#">Stories</a>
+      </div>
+      <div class="plaimanas-logo">PLAIMANAS</div>
+    </div>
+
+    <main>
+      <h1 class="plaimanas-logo">PLAIMANAS</h1>
+      <section class="woman">
+        <video
+          class="woman-vidio auto-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          webkit-playsinline
+        >
+          <source src="/assets/mp4/mockup_video576.mp4" type="video/mp4" />
+        </video>
+      </section>
+
+      <section id="collections" class="collections">
+        <div class="new">
+          <div class="media-card">
+            <div class="media-overlay">
+              <p>NEW</p>
+            </div>
+
+            <img
+              src="assets/images/7b6529a12a4f5ab332188c7dac157175d7d93817.jpg"
+            />
+          </div>
+          <h4 class="title">Sed egestas, nibh a condimentum imperdiet</h4>
+          <p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare,
+            nisl non rhoncus commodo, turpis elit ultricies justo, vitae
+            molestie quam justo ut lacus. Proin vitae
+          </p>
+        </div>
+
+        <div class="best-seller">
+          <div class="media-card">
+            <div class="media-overlay">
+              <p>BESTSELLER</p>
+            </div>
+
+            <video
+              class="auto-video"
+              src="assets/mp4/DTS_THE_LEADER_Joey_Bania_Clips_ID10.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+              webkit-playsinline
+            >
+              <source
+                src="assets/mp4/DTS_THE_LEADER_Joey_Bania_Clips_ID10.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+
+          <p class="title">Sed egestas, nibh a condimentum imperdiet</p>
+          <p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare,
+            nisl non rhoncus commodo, turpis elit ultricies justo, vitae
+            molestie quam justo ut lacus. Proin vitae
+          </p>
+        </div>
+
+        <div class="collections-menu">
+          <div class="collections-grid">
+            <div class="card card-large">
+              <div class="media-card">
+                <div class="image-wrapper">
+                  <div class="asset-default">
+                    <img
+                      src="assets/images/c6b2c87677418227a1bb072efb7bec28f1a54014.jpg"
+                      alt="collection1"
+                    />
+                  </div>
+                  <div class="asset-hover">
+                    <video
+                      class="auto-video"
+                      src="assets/mp4/DTS_THE_LEADER_Joey_Bania_Clips_ID10.mp4"
+                      autoplay
+                      muted
+                      loop
+                      playsinline
+                      webkit-playsinline
+                    >
+                      <source
+                        src="assets/mp4/DTS_THE_LEADER_Joey_Bania_Clips_ID10.mp4"
+                        type="video/mp4"
+                      />
+                    </video>
+                  </div>
+                </div>
+
+                <div class="text-overlay">
+                  <p>COLLECTION 01</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="media-card">
+                <div class="image-wrapper">
+                  <div class="asset-default">
+                    <img
+                      src="assets/images/f5a8b21b615bf2137dab5ecf7747b3b5503e057d.jpg"
+                      alt="collection2"
+                    />
+                  </div>
+                  <div class="asset-hover">
+                    <img
+                      src="assets/images/3a8cff66f948def649520bc34a8a29886b2baad9.jpg"
+                      alt="collection2"
+                    />
+                  </div>
+                </div>
+
+                <div class="text-overlay">
+                  <p>COLLECTION 02</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="media-card">
+                <div class="image-wrapper">
+                  <div class="asset-default">
+                    <img
+                      src="assets/images/fe05c5d37eb2c0d3b5a0c02ddcc0cc05aa72320e.jpg"
+                      alt="collection3"
+                    />
+                  </div>
+                  <div class="asset-hover">
+                    <img
+                      src="assets/images/3a8cff66f948def649520bc34a8a29886b2baad9.jpg"
+                      alt="collection3"
+                    />
+                  </div>
+                </div>
+
+                <div class="text-overlay">
+                  <p>COLLECTION 03</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="auto-scrolling">
+        <div class="slider">
+          <div class="track">
+            <span>NEW ARRIVAL</span>
+            <img src="assets/icons/arrow-left.svg" alt="arrow-left" />
+            <span>BEST SELLING</span>
+            <img src="assets/icons/arrow-right.svg" alt="arrow-left" />
+            <span>NEW ARRIVAL</span>
+            <img src="assets/icons/arrow-left.svg" alt="arrow-left" />
+            <span>BEST SELLING</span>
+            <img src="assets/icons/arrow-right.svg" alt="arrow-left" />
+            <span>NEW ARRIVAL</span>
+            <img src="assets/icons/arrow-left.svg" alt="arrow-left" />
+            <span>BEST SELLING</span>
+            <img src="assets/icons/arrow-right.svg" alt="arrow-left" />
+            <span>NEW ARRIVAL</span>
+            <img src="assets/icons/arrow-left.svg" alt="arrow-left" />
+            <span>BEST SELLING</span>
+            <img src="assets/icons/arrow-right.svg" alt="arrow-left" />
+          </div>
+        </div>
+      </section>
+
+      <section class="attitude">
+        <div class="attitude-container">
+          <div class="attitude-card">
+            <!-- Edit : Upperlatter -->
+            <h2>Worldwide shipping</h2>
+            <p class="attitude-detail">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              ornare, nisl non rhoncus commodo, turpis elit ultricies justo,
+              vitae molestie quam justo ut lacus. Proin vitae
+            </p>
+          </div>
+          <div class="attitude-card">
+            <h2>Customer service</h2>
+            <p class="attitude-detail">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              ornare, nisl non rhoncus commodo, turpis elit ultricies justo,
+              vitae molestie quam justo ut lacus. Proin vitae
+            </p>
+          </div>
+          <div class="attitude-card">
+            <h2>Secure payment</h2>
+            <p class="attitude-detail">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              ornare, nisl non rhoncus commodo, turpis elit ultricies justo,
+              vitae molestie quam justo ut lacus. Proin vitae
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="faqs">
+        <div class="container">
+          <div class="description">
+            <h1>FREQUENTLY ASKED QUESTIONS</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              ornare, nisl non rhoncus commodo.
+            </p>
+          </div>
+
+          <div class="tab-buttons">
+            <button class="tab-btn" data-tab="order">ORDER</button>
+            <button class="tab-btn" data-tab="shipping">SHIPPING</button>
+            <button class="tab-btn active" data-tab="returns">
+              RETURNS & EXCHANGES
+            </button>
+            <button class="tab-btn" data-tab="sizing">SIZING & PRODUCTS</button>
+          </div>
+
+          <div class="tab-content">
+            <div class="tab-answer" id="order">
+              <p>Order content here...</p>
+            </div>
+
+            <div class="tab-answer" id="shipping">
+              <!-- # 1 -->
+              <div class="faq-item active">
+                <div class="faq-question">
+                  <h3>DO YOU OFFER INTERNATIONAL SHIPPING?</h3>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Items can be returned within 14 days of receipt, provided
+                    they are unworn, unwashed, and in original condition with
+                    tags attached.
+                  </p>
+                </div>
+              </div>
+
+              <!-- # 2 -->
+              <div class="faq-item">
+                <div class="faq-question">
+                  <h3>HOW LONG DOES DELIVERY TAKE?</h3>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                  <p>ANS</p>
+                </div>
+              </div>
+
+              <!-- # 3 -->
+              <div class="faq-item active">
+                <div class="faq-question">
+                  <h3>HOW CAN I TRACK MY ORDER?</h3>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                  <p>ANS</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-answer active" id="returns">
+              <div class="faq-item active">
+                <div class="faq-question">
+                  <h3>WHAT IS YOUR RETURN POLICY?</h3>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Items can be returned within 14 days of receipt, provided
+                    they are unworn, unwashed, and in original condition with
+                    tags attached.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <h3>CAN I EXCHANGE FOR A DIFFERENT SIZE?</h3>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                  <p>Yes, exchanges are available within 14 days.</p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <h3>ARE SALE ITEMS REFUNABLE?</h3>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                  <p>Yes, exchanges are available within 14 days.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-answer" id="sizing">
+              <p>Sizing content here...</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="inquiry">
+        <div class="inquiry-container">
+          <div class="description">
+            <h1>MAKE AN INQUIRY</h1>
+            <p class="subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              ornare, nisl non rhoncus commodo.
+            </p>
+          </div>
+
+          <form class="inquiry-form">
+            <div class="radio-group">
+              <label>
+                <input type="radio" name="mode" checked />
+                Onsite
+              </label>
+
+              <label>
+                <input type="radio" name="mode" />
+                Hybrid
+              </label>
+            </div>
+
+            <input type="text" placeholder="Full name*" required />
+            <input type="email" placeholder="Email*" required />
+            <input type="tel" placeholder="Phone Number*" />
+
+            <select required>
+              <option value="" disabled selected hidden>Select Subject*</option>
+              <option>General Inquiry</option>
+              <option>Partnership</option>
+            </select>
+
+            <label class="agree-condition">
+              <input type="checkbox" class="condition-checkbox" required />
+              I agree to all terms & conditions
+            </label>
+
+            <button type="submit" class="send-btn">SEND</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="menu">
+          <div class="menu-list">
+            <nav class="menu-card">
+              <p>ABOUT</p>
+              <a href="woman">Woman</a>
+              <a href="collections">Collections</a>
+              <a href="editorial">Editorial</a>
+              <a href="stories">Stories</a>
+            </nav>
+          </div>
+          <div class="menu-list big">
+            <nav class="menu-card">
+              <p>HELP</p>
+              <a href="#">Payment Notification</a>
+              <a href="#">Customer Service</a>
+              <a href="#">FAQ</a>
+            </nav>
+          </div>
+          <div class="menu-list">
+            <nav class="menu-card">
+              <p>SOCIAL</p>
+              <a href="#">Instagram</a>
+              <a href="#">Facebook</a>
+            </nav>
+          </div>
+          <div class="menu-list big">
+            <nav class="menu-card">
+              <p>LEGAL</p>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Editorial</a>
+              <a href="#">Cookies Policy</a>
+            </nav>
+          </div>
+
+          <form class="gmail-form">
+            <p>NEWSLETTER</p>
+            <input type="email" placeholder="Email" />
+            <button type="submit" class="subscribe-btn">SUBSCRIBE</button>
+          </form>
+        </div>
+
+        <div>
+          <p>© Plaimanas.</p>
+          <p>Web by ::*</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
